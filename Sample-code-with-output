@@ -1,0 +1,47 @@
+# Sample Code With Output :-
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the first number");
+        double a = sc.nextDouble();
+        System.out.println("Enter the second number");
+        double b = sc.nextDouble();
+        System.out.println("Enter the operator you want to calculate +,-,*,/,%");
+        char op = sc.next().charAt(0);
+
+
+        switch (op) {
+            case '+':
+                System.out.println(a + b);
+                break;
+            case '-':
+                System.out.println(a - b);
+                break;
+            case '*':
+                System.out.println(a * b);
+                break;
+            case '/':
+                System.out.println(a / b);
+                break;
+            case '%':
+                System.out.println(a % b);
+                break;
+        }
+    }
+}
+
+
+
+OUTPUT:-
+   C:\Users\mdsab\.jdks\openjdk-20.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2\lib\idea_rt.jar=55020:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\mdsab\IdeaProjects\calculator\out\production\calculator Main
+Enter the first number
+266
+Enter the second number
+7.835
+Enter the operator you want to calculate +,-,*,/,%
+/
+33.95022335673261
+
+Process finished with exit code 0
